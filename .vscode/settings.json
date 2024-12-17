@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": ["javascript", "typescript", "html"],
+  "eslint.run": "onType",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.fixAll.stylelint": "always"
+  },
+  "eslint.format.enable": true // ESLint のフォーマット機能を無効にする,
+}
